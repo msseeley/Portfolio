@@ -10,7 +10,7 @@
   box-sizing: border-box; }
 
 body {
-  line-height: 1.6rem; }
+  line-height: 1.2rem; }
 
 a {
   text-decoration: none;
@@ -36,8 +36,7 @@ h2, h3, h4 {
       font-style: italic; }
   #resume-header #heading-info #basic-info {
     font-size: 1rem;
-    text-align: end;
-    line-height: 1.2; }
+    text-align: end; }
     #resume-header #heading-info #basic-info a#linkedin {
       border-right: 1px solid black;
       padding-right: .3rem; }
