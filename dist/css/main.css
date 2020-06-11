@@ -1,8 +1,43 @@
+.container {
+  max-width: 1200px;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden; }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
+body {
+  line-height: 1.6rem; }
+
 a {
   text-decoration: none;
   color: black; }
+
+ul {
+  list-style: none; }
+
+h1, h2, h3 {
+  text-transform: uppercase; }
+
+h2, h3, h4 {
+  font-weight: normal; }
+
+#resume-header #heading-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.6rem; }
+  #resume-header #heading-info #personal-titles {
+    line-height: 1.2; }
+    #resume-header #heading-info #personal-titles #subtitle {
+      font-size: 1.6rem;
+      font-style: italic; }
+  #resume-header #heading-info #basic-info {
+    font-size: 1rem;
+    text-align: end;
+    line-height: 1.2; }
+    #resume-header #heading-info #basic-info a#linkedin {
+      border-right: 1px solid black;
+      padding-right: .3rem; }

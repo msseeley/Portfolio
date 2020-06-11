@@ -1,3 +1,5 @@
+@import 'variables';
+@import 'utilities';
 
 * {
   margin:0;
@@ -5,7 +7,49 @@
   box-sizing: border-box;
 }
 
+body{
+  line-height: 1.6rem;
+}
+
 a {
   text-decoration: none;
   color: black;
+}
+
+ul{
+  list-style: none;
+}
+
+h1,h2,h3{
+  text-transform:uppercase;
+}
+
+h2, h3, h4{
+  font-weight: normal;
+}
+
+//HEADER
+#resume-header{
+  #heading-info{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 1.6rem;
+    #personal-titles {
+      line-height: 1.2;
+      #subtitle{
+        font-size: 1.6rem;
+        font-style: italic;
+      }
+    }
+    #basic-info{
+      font-size: 1rem;
+      text-align: end;
+      line-height: 1.2;
+
+      a#linkedin{
+        border-right: 1px solid black;
+        padding-right: .3rem;
+      }
+    }
+  }
 }
