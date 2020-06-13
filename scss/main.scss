@@ -8,7 +8,7 @@
 }
 
 body{
-  line-height: 1.2rem;
+  // line-height: 1.2rem;
   font-family: 'Montserrat', sans-serif;
   font-style: 400;
 }
@@ -58,9 +58,18 @@ h1, h2, h3, h4, h5 {font-weight: normal;}
 .p-med{padding: 1rem}
 .p-sml{padding: .5rem}
 
+.p-left{padding-left: 1rem}
+
 
 //display
+.grid{
+  display:grid;
+  grid-template-areas:
+        'col-1 col-2'
+        'col-1 col-2';
+  grid-template-columns: (1fr, 1fr);
+}
 .flex{display: flex}
 .space-btwn{justify-content:space-between}
-
-#heading-info #basic-info{text-align: right;}
+.ctr-vert{align-items: center}
+.align-rt{text-align: right;}

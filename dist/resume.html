@@ -12,115 +12,93 @@
 </head>
 
 <body>
-  <header id="resume-header">
-    <div class="container m-vert-med p-med">
-      <div id="heading-info" class="flex space-btwn">
-        <div id="personal-titles">
-          <h1 id="name" class="caps w-extra-bold f-lg">Molly Seeley</h1>
-          <h2 id="subtitle" class="caps italic w-reg f-md-lg m-top-lg">Full Stack Software Engineer</h2>
-        </div>
-        <div id="basic-info">
-          <h4 id="phone" class="f-med-sml">413.230.8227</h4>
-          <h4 id="location" class="f-med-sml">New York, NY</h4>
-          <h4 id="email" class="f-med-sml">mseeley89@gmail.com</h4>
-          <!-- <h3 class="txt-3">Portfolio Links</h3> -->
-          <a class="f-med-sml" href="https://www.linkedin.com/in/mollyseeley/" target="_blank" id="linkedin">linkedIn</a>
-          <a class="f-med-sml" href="https://github.com/msseeley" target="_blank" id="github">github</a>
-          <!-- ADD PERSONAL WEBSITE HERE -->
-        </div>
+  <header class="m-lg">
+    <div class="flex space-btwn ctr-vert">
+      <div id="personal-titles">
+        <h1 id="name" class="caps w-extra-bold f-lg">Molly Seeley</h1>
+        <h2 id="subtitle" class="caps italic w-reg f-md-lg">Full Stack Software Engineer</h2>
+      </div>
+      <div id="basic-info" class="align-rt">
+        <h4 id="phone" class="f-med-sml">413.230.8227</h4>
+        <h4 id="location" class="f-med-sml">New York, NY</h4>
+        <h4 id="email" class="f-med-sml">mseeley89@gmail.com</h4>
+        <!-- <h3 class="txt-3">Portfolio Links</h3> -->
+        <a class="f-med-sml" href="https://www.linkedin.com/in/mollyseeley/" target="_blank" id="linkedin">linkedIn</a> |
+        <a class="f-med-sml" href="https://github.com/msseeley" target="_blank" id="github">github</a>
+        <!-- ADD PERSONAL WEBSITE HERE -->
       </div>
     </div>
   </header>
-  <section id="skills-section">
-    <div class="container">
-      <h3 class="caps">Skills</h3>
-      <div>
-        <h4 class="w-med-bold">Technologies</h4>
-        <ul>
-          <li class="skill txt-4">JavaScript</li>
-          <li class="skill txt-4">ES6</li>
-          <li class="skill txt-4">Sequelize</li>
-          <li class="skill txt-4">React</li>
-          <li class="skill txt-4">Redux</li>
-          <li class="skill txt-4">React-Redux</li>
-          <li class="skill txt-4">Node</li>
-          <li class="skill txt-4">Postgres</li>
-          <li class="skill txt-4">CSS</li>
-          <li class="skill txt-4">HTML</li>
-        </ul>
-        <ul>
-          <li class="skill txt-4">React Native</li>
-          <li class="skill txt-4">Firebase</li>
-          <li class="skill txt-4">Python</li>
-          <li class="skill txt-4">JIRA</li>
-          <li class="skill txt-4">REST</li>
-          <li class="skill txt-4">Mocha</li>
-          <li class="skill txt-4">Chai</li>
-        </ul>
-        <ul>
-          <li class="skill txt-4">Django</li>
-          <li class="skill txt-4">MongoDB</li>
-          <li class="skill txt-4">SQL</li>
-          <li class="skill txt-4">AWS</li>
-          <li class="skill txt-4">Docker</li>
-          <li class="skill txt-4">Enzyme</li>
-          <li class="skill txt-4">Jasmine</li>
-          <li class="skill txt-4">Angular</li>
-        </ul>
+  <section class="m-hor-lg">
+    <h3 class="caps">Skills</h3>
+    <div class="grid m-hor-lg">
+      <h4 class="col-1 w-semi-bold m-top-med">Technologies</h4>
+      <div class="col-2 m-lg">
+        <div class="flex">
+          <h4 class="w-med-bold">Proficient</h4>
+          <p>
+            JavaScript, ES6, Sequelize, React, Redux, React-Redux, Node, Postgres, CSS, HTML
+          </p>
+        </div>
+        <div class="flex">
+          <h4 class="w-med-bold">Knowledgeable</h4>
+          <p>
+            React Native, Firebase, Python, JIRA, REST, Mocha, Chai
+          </p>
+        </div>
+        <div class="flex">
+          <h4 class="w-med-bold">Familiar</h4>
+          <p>
+            Django, MongoDB, SQL, AWS, Docker, Enzyme, Jasmine, Angular
+          </p>
+        </div>
       </div>
-      <div>
-        <h4 class="w-med-bold">Soft Skills</h4>
-        <ul class="skill-list">
-          <li class="skill">agile</li>
-          <li class="skill">team management</li>
-          <li class="skill">technical product management</li>
-          <li class="skill">product development</li>
-          <li class="skill">qualitative data analysis</li>
-        </ul>
+      <h4 class="col-1 w-semi-bold">Soft Skills</h4>
+      <div class="col-2 m-lg">
+        <p>
+          agile, team management, technical product management, product development, qualitative data analysis
+        </p>
       </div>
     </div>
   </section>
-  <section id="experience">
-    <div class="container">
-      <h3 class="caps">Experience</h3>
-      <div class="job">
-        <div class="left">
-          <h4 class="w-semi-bold caps">Sub Rosa</h4>
-          <h4 class="w-med-bold">October 2019 - March 2020</h4>
-        </div>
-        <div class="right">
-          <h4 class="w-semi-bold caps">Full Stack Engineer & Assistant Technical Product Manager</h4>
-          <h5>Engineering, Research & Development</h5>
-          <ul>
-            <li>Stack: React, Redux Sagas, HTML, CSS, Python, AWS, Docker</li>
-            <li>Automated social media data processing for branding development
-              <ul>
-                <li>Automated parameter tuning and quantitative analysis of proprietary Natural Language Processing software
-                  output
-                </li>
-                <li>Reduced data run and analysis time by 50%</li>
-              </ul>
-            </li>
-            <li>Analyzed NLP data output and developed approaches to improve results
-              <ul>
-                <li>Investigated social media data to understand data trends and related user demographics</li>
-              </ul>
-            </li>
-            <li>Maintained front-end landing page
-              <ul>
-                <li>Updated site copy</li>
-                <li>Implemented layout and design changes</li>
-              </ul>
-            </li>
-          </ul>
-          <h4>Technical Product Management</h4>
-          <ul>
-            <li>Conducted bi-weekly meetings with off-site dev team</li>
-            <li>Managed test prioritization and implementation</li>
-            <li>Analyzed NLP data output and developed approaches to improve results </li>
-            <li>Planned client-beta test implementation</li>
-          </ul>
-        </div>
+  <section class="m-lg">
+    <h3 class="caps">Experience</h3>
+    <div class="job">
+      <div class="left">
+        <h4 class="w-semi-bold caps">Sub Rosa</h4>
+        <h4 class="w-med-bold">October 2019 - March 2020</h4>
+      </div>
+      <div class="right">
+        <h4 class="w-semi-bold caps">Full Stack Engineer & Assistant Technical Product Manager</h4>
+        <h5>Engineering, Research & Development</h5>
+        <ul>
+          <li>Stack: React, Redux Sagas, HTML, CSS, Python, AWS, Docker</li>
+          <li>Automated social media data processing for branding development
+            <ul>
+              <li>Automated parameter tuning and quantitative analysis of proprietary Natural Language Processing software output
+              </li>
+              <li>Reduced data run and analysis time by 50%</li>
+            </ul>
+          </li>
+          <li>Analyzed NLP data output and developed approaches to improve results
+            <ul>
+              <li>Investigated social media data to understand data trends and related user demographics</li>
+            </ul>
+          </li>
+          <li>Maintained front-end landing page
+            <ul>
+              <li>Updated site copy</li>
+              <li>Implemented layout and design changes</li>
+            </ul>
+          </li>
+        </ul>
+        <h4>Technical Product Management</h4>
+        <ul>
+          <li>Conducted bi-weekly meetings with off-site dev team</li>
+          <li>Managed test prioritization and implementation</li>
+          <li>Analyzed NLP data output and developed approaches to improve results </li>
+          <li>Planned client-beta test implementation</li>
+        </ul>
       </div>
     </div>
   </section>
