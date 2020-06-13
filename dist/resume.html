@@ -5,26 +5,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
   <title>Resume</title>
 </head>
 
 <body>
   <header id="resume-header">
-    <div class="container">
-      <div id="heading-info">
+    <div class="container m-vert-med p-med">
+      <div id="heading-info" class="flex space-btwn">
         <div id="personal-titles">
-          <h1 id="name">Molly Seeley</h1>
-          <h2 id="subtitle">Full Stack Software Engineer</h2>
+          <h1 id="name" class="caps w-extra-bold f-lg">Molly Seeley</h1>
+          <h2 id="subtitle" class="caps italic w-reg f-md-lg m-top-lg">Full Stack Software Engineer</h2>
         </div>
         <div id="basic-info">
-          <!-- <h3 class="txt-3">Contact Info</h3> -->
-          <h4 id="phone">413.230.8227</h4>
-          <h4 id="location">New York, NY</h4>
-          <h4 id="email">mseeley89@gmail.com</h4>
+          <h4 id="phone" class="f-med-sml">413.230.8227</h4>
+          <h4 id="location" class="f-med-sml">New York, NY</h4>
+          <h4 id="email" class="f-med-sml">mseeley89@gmail.com</h4>
           <!-- <h3 class="txt-3">Portfolio Links</h3> -->
-          <a href="https://www.linkedin.com/in/mollyseeley/" target="_blank" id="linkedin">linkedIn</a>
-          <a href="https://github.com/msseeley" target="_blank" id="github">github</a>
+          <a class="f-med-sml" href="https://www.linkedin.com/in/mollyseeley/" target="_blank" id="linkedin">linkedIn</a>
+          <a class="f-med-sml" href="https://github.com/msseeley" target="_blank" id="github">github</a>
           <!-- ADD PERSONAL WEBSITE HERE -->
         </div>
       </div>
@@ -32,10 +33,10 @@
   </header>
   <section id="skills-section">
     <div class="container">
-      <h2 class="txt-2">Skills</h2>
-      <div class="technologies skill-title">
-        <h3 class="txt-3">Technologies</h3>
-        <ul id="proficient" class="skill-list">
+      <h3 class="caps">Skills</h3>
+      <div>
+        <h4 class="w-med-bold">Technologies</h4>
+        <ul>
           <li class="skill txt-4">JavaScript</li>
           <li class="skill txt-4">ES6</li>
           <li class="skill txt-4">Sequelize</li>
@@ -47,7 +48,7 @@
           <li class="skill txt-4">CSS</li>
           <li class="skill txt-4">HTML</li>
         </ul>
-        <ul id="knowlegeable" class="skill-list">
+        <ul>
           <li class="skill txt-4">React Native</li>
           <li class="skill txt-4">Firebase</li>
           <li class="skill txt-4">Python</li>
@@ -56,7 +57,7 @@
           <li class="skill txt-4">Mocha</li>
           <li class="skill txt-4">Chai</li>
         </ul>
-        <ul id="Familiar" class="skill-list">
+        <ul>
           <li class="skill txt-4">Django</li>
           <li class="skill txt-4">MongoDB</li>
           <li class="skill txt-4">SQL</li>
@@ -67,29 +68,29 @@
           <li class="skill txt-4">Angular</li>
         </ul>
       </div>
-      <div class="soft-skills skill-title">
-        <h3 class="txt-3">Soft Skills</h3>
+      <div>
+        <h4 class="w-med-bold">Soft Skills</h4>
         <ul class="skill-list">
-          <li class="skill txt-4">agile</li>
-          <li class="skill txt-4">team management</li>
-          <li class="skill txt-4">technical product management</li>
-          <li class="skill txt-4">product development</li>
-          <li class="skill txt-4">qualitative data analysis</li>
+          <li class="skill">agile</li>
+          <li class="skill">team management</li>
+          <li class="skill">technical product management</li>
+          <li class="skill">product development</li>
+          <li class="skill">qualitative data analysis</li>
         </ul>
       </div>
     </div>
   </section>
   <section id="experience">
     <div class="container">
-      <h2 class="txt-2">Experience</h2>
+      <h3 class="caps">Experience</h3>
       <div class="job">
         <div class="left">
-          <h3 class="employer-name">Sub Rosa</h3>
-          <h3 class="date-range">October 2019 - March 2020</h3>
+          <h4 class="w-semi-bold caps">Sub Rosa</h4>
+          <h4 class="w-med-bold">October 2019 - March 2020</h4>
         </div>
         <div class="right">
-          <h3 class="job-title">Full Stack Engineer & Assistant Technical Product Manager</h3>
-          <h4>Engineering, Research & Development</h4>
+          <h4 class="w-semi-bold caps">Full Stack Engineer & Assistant Technical Product Manager</h4>
+          <h5>Engineering, Research & Development</h5>
           <ul>
             <li>Stack: React, Redux Sagas, HTML, CSS, Python, AWS, Docker</li>
             <li>Automated social media data processing for branding development
@@ -125,7 +126,7 @@
   </section>
   <section id="education">
     <div class="container">
-      <h2 class="txt-2">Education</h2>
+      <h3 class="caps">Education</h3>
       <h4>Grace Hopper Program at Fullstack Academy 2018</h4>
       <h4>MA NYU Gallatin ABD, Intersections of Race, Class, Gender, & Family in America</h4>
       <h4>BA Hampshire College 2012 Interdisciplinary Arts, Literature, & Creative Writing </h4>

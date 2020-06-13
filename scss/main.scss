@@ -9,6 +9,8 @@
 
 body{
   line-height: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-style: 400;
 }
 
 a {
@@ -16,38 +18,49 @@ a {
   color: black;
 }
 
-ul{
-  list-style: none;
-}
+ul{list-style: none;}
+h1, h2, h3, h4, h5 {font-weight: normal;}
 
-h1,h2,h3{
-  text-transform:uppercase;
-}
+//font-styles
+.caps{text-transform: uppercase;}
+.italic{font-style: italic}
 
-h2, h3, h4{
-  font-weight: normal;
-}
+//font-weights
+.w-extra-bold{font-weight: 800}
+.w-bold{font-weight: 700}
+.w-semi-bold{font-weight: 600}
+.w-med-bold{font-weight: 500}
+.w-reg{font-weight:400}
 
-//HEADER
-#resume-header{
-  #heading-info{
-    display:flex;
-    justify-content: space-between;
-    margin-top: 1.6rem;
-    #personal-titles {
-      line-height: 1.2;
-      #subtitle{
-        font-size: 1.6rem;
-        font-style: italic;
-      }
-    }
-    #basic-info{
-      font-size: 1rem;
-      text-align: end;
-      a#linkedin{
-        border-right: 1px solid black;
-        padding-right: .3rem;
-      }
-    }
-  }
-}
+//font-sizes
+.f-lg{font-size: 3rem;}
+.f-med-lg{font-size: 2rem;}
+.f-med{font-size: 1rem;}
+.f-med-sml{font-size: .75rem;}
+.f-sml{font-size: .5rem;}
+
+//margin
+.m-lg {margin: 2rem;}
+.m-med {margin: 1rem;}
+.m-sml {margin: .5rem;}
+
+.m-top-lg{margin: 2rem 0 0 0;}
+.m-top-med{margin: 1rem 0 0 0;}
+.m-top-sml{margin: .5rem 0 0 0;}
+
+.m-hor-lg{margin: 0rem 2rem;}
+.m-hor-med{margin: 0rem 1rem;}
+.m-hor-sml{margin: 0rem .5rem;}
+
+
+//padding
+.p-lg{padding: 2rem}
+.p-med{padding: 1rem}
+.p-sml{padding: .5rem}
+
+
+//display
+.flex{display: flex}
+.space-btwn{justify-content:space-between}
+
+#heading-info #basic-info{text-align: right;}
