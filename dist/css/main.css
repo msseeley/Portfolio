@@ -100,8 +100,8 @@ h1, h2, h3, h4, h5 {
 
 .grid {
   display: grid;
-  grid-template-areas: 'col-1 col-2' 'col-1 col-2';
-  grid-template-columns: 1fr, 1fr; }
+  grid-template-columns: 1fr, 2fr;
+  grid-template-areas: 'col-1 col-2' 'col-1 col-2'; }
 
 .flex {
   display: flex; }

@@ -64,10 +64,10 @@ h1, h2, h3, h4, h5 {font-weight: normal;}
 //display
 .grid{
   display:grid;
+  grid-template-columns: (1fr, 2fr);
   grid-template-areas:
         'col-1 col-2'
         'col-1 col-2';
-  grid-template-columns: (1fr, 1fr);
 }
 .flex{display: flex}
 .space-btwn{justify-content:space-between}
