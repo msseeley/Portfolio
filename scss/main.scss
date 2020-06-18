@@ -64,11 +64,14 @@ h1, h2, h3, h4, h5 {font-weight: normal;}
 //display
 .grid{
   display:grid;
-  grid-template-columns: (1fr, 2fr);
+  grid-template-columns: 0.25fr 2fr;
   grid-template-areas:
-        'col-1 col-2'
-        'col-1 col-2';
+    'col-1 col-2'
+    'col-1 col-2';
 }
+.col-1{grid-area: 'col-1'}
+.col-2{grid-area: 'col-2'}
+
 .flex{display: flex}
 .space-btwn{justify-content:space-between}
 .ctr-vert{align-items: center}
